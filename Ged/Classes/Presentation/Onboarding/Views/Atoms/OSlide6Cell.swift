@@ -72,7 +72,7 @@ private extension OSlide6Cell {
         let view = CircleView()
         view.backgroundColor = UIColor.white
         view.layer.borderWidth = 2.scale
-        view.layer.borderColor = UIColor(integralRed: 61, green: 148, blue: 245).cgColor
+        view.layer.borderColor = Appearance.mainColor.cgColor
         view.translatesAutoresizingMaskIntoConstraints = false
         addSubview(view)
         return view
@@ -80,7 +80,7 @@ private extension OSlide6Cell {
     
     func makeInnerView() -> CircleView {
         let view = CircleView()
-        view.backgroundColor = UIColor(integralRed: 61, green: 148, blue: 245)
+        view.backgroundColor = Appearance.mainColor
         view.translatesAutoresizingMaskIntoConstraints = false
         addSubview(view)
         return view

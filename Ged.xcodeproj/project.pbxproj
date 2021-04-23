@@ -215,6 +215,7 @@
 		96F4589F2632D4C1000B77E3 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F457D42632D4C0000B77E3 /* OnboardingView.swift */; };
 		96F458A02632D4C1000B77E3 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F457D52632D4C0000B77E3 /* OnboardingViewModel.swift */; };
 		96F458A12632D4C1000B77E3 /* OnboardingAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F457D72632D4C0000B77E3 /* OnboardingAnalytics.swift */; };
+		96F458AA2632DADE000B77E3 /* Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F458A92632DADE000B77E3 /* Appearance.swift */; };
 		A45C53AAD29EA1FA74D7D308 /* Pods_Ged.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C20019BABC46EF236E353032 /* Pods_Ged.framework */; };
 /* End PBXBuildFile section */
 
@@ -431,6 +432,7 @@
 		96F457D42632D4C0000B77E3 /* OnboardingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		96F457D52632D4C0000B77E3 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
 		96F457D72632D4C0000B77E3 /* OnboardingAnalytics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingAnalytics.swift; sourceTree = "<group>"; };
+		96F458A92632DADE000B77E3 /* Appearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appearance.swift; sourceTree = "<group>"; };
 		C20019BABC46EF236E353032 /* Pods_Ged.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ged.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3B1AC06C0910121A31D6EAC /* Pods-Ged.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ged.debug.xcconfig"; path = "Target Support Files/Pods-Ged/Pods-Ged.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -542,6 +544,7 @@
 				96F456D92632D4C0000B77E3 /* CustomViews */,
 				96F456E32632D4C0000B77E3 /* AppDelegate.swift */,
 				96F456E42632D4C0000B77E3 /* Rx */,
+				96F458A92632DADE000B77E3 /* Appearance.swift */,
 			);
 			path = Misc;
 			sourceTree = "<group>";
@@ -1504,6 +1507,7 @@
 				96F458512632D4C1000B77E3 /* TestType.swift in Sources */,
 				96F458362632D4C1000B77E3 /* StudyViewController.swift in Sources */,
 				96F4584A2632D4C1000B77E3 /* ExplanationCell.swift in Sources */,
+				96F458AA2632DADE000B77E3 /* Appearance.swift in Sources */,
 				96F458552632D4C1000B77E3 /* TestView.swift in Sources */,
 				96F458122632D4C1000B77E3 /* GetTenSetRequest.swift in Sources */,
 				96F4589D2632D4C1000B77E3 /* OSlide1View.swift in Sources */,

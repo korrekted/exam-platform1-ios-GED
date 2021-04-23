@@ -39,9 +39,9 @@ private extension TabItemView {
         
         switch state {
         case .selected:
-            color = UIColor(integralRed: 61, green: 148, blue: 245)
+            color = Appearance.mainColor
         case .deselected:
-            color = UIColor(integralRed: 61, green: 148, blue: 245, alpha: 0.3)
+            color = Appearance.mainColorAlpha
         }
         
         label.textColor = color

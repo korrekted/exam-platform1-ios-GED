@@ -20,7 +20,7 @@
 "Course.Tab.Study" = "Study";
 
 // MARK: Splash
-"Splash.Title.Part1" = "Preferred by\n";
+"Splash.Title.Part1" = "Prepared by\n";
 "Splash.Title.Part2" = "CERTIFIED\n";
 "Splash.Title.Part3" = "experts";
 
@@ -33,7 +33,7 @@
 "Onboarding.Slide1.Text2" = "Practice exams created by certified experts to help you pass on the first attempt";
 "Onboarding.Slide1.Button" = "Let’s do it";
 "Onboarding.Slide2.Title" = "WHAT IS YOUR GENDER?";
-"Onboarding.Slide2.Man" = "Man";
+"Onboarding.Slide2.Man" = "Male";
 "Onboarding.Slide2.Woman" = "Female";
 "Onboarding.Slide3.Title" = "HOW OLD ARE YOU?";
 "Onboarding.Slide4.Title" = "WHAT ARE YOUR GOALS?";

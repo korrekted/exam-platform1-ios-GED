@@ -45,6 +45,6 @@ private extension OSlide4Cell {
     
     func update() {
         layer.borderWidth = isSelected ? 2.scale : 0
-        layer.borderColor = isSelected ? UIColor(integralRed: 61, green: 148, blue: 245).cgColor : UIColor.white.cgColor
+        layer.borderColor = isSelected ? Appearance.mainColor.cgColor : UIColor.white.cgColor
     }
 }

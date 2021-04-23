@@ -36,9 +36,9 @@ extension CourseProgressCell {
             .textAlignment(.left)
         
         titleLabel.attributedText = model.name.attributed(with: attr)
-        testTakenProgress.setup(percent: model.testsTaken, color: UIColor(integralRed: 236, green: 73, blue: 64))
-        correctAnswersProgress.setup(percent: model.correctAnswers, color: UIColor(integralRed: 61, green: 148, blue: 245))
-        questionsTakenProgress.setup(percent: model.questionsTaken, color: UIColor(integralRed: 248, green: 207, blue: 86))
+        testTakenProgress.setup(percent: model.testsTaken, color: Appearance.progress1Color)
+        correctAnswersProgress.setup(percent: model.correctAnswers, color: Appearance.progress2Color)
+        questionsTakenProgress.setup(percent: model.questionsTaken, color: Appearance.progress3Color)
     }
 }
 
