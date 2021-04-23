@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9613EC812633392D00DAEB9A /* Onboarding.Chart.json in Resources */ = {isa = PBXBuildFile; fileRef = 9613EC802633392D00DAEB9A /* Onboarding.Chart.json */; };
 		96F4527B2632D27A000B77E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96F4527A2632D27A000B77E3 /* Assets.xcassets */; };
 		96F456B22632D3C5000B77E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96F456B12632D3C5000B77E3 /* LaunchScreen.storyboard */; };
 		96F456B92632D3C9000B77E3 /* SF-Pro-Rounded-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 96F456B62632D3C9000B77E3 /* SF-Pro-Rounded-Semibold.otf */; };
@@ -194,7 +195,6 @@
 		96F4588A2632D4C1000B77E3 /* OSlide8View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F457BD2632D4C0000B77E3 /* OSlide8View.swift */; };
 		96F4588B2632D4C1000B77E3 /* OProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F457BF2632D4C0000B77E3 /* OProgressView.swift */; };
 		96F4588C2632D4C1000B77E3 /* OSlide15Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F457C02632D4C0000B77E3 /* OSlide15Cell.swift */; };
-		96F4588D2632D4C1000B77E3 /* Onboarding.Chart.json in Resources */ = {isa = PBXBuildFile; fileRef = 96F457C22632D4C0000B77E3 /* Onboarding.Chart.json */; };
 		96F4588E2632D4C1000B77E3 /* ODatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F457C32632D4C0000B77E3 /* ODatePicker.swift */; };
 		96F4588F2632D4C1000B77E3 /* OSlide4Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F457C42632D4C0000B77E3 /* OSlide4Cell.swift */; };
 		96F458902632D4C1000B77E3 /* OSlide9TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F457C52632D4C0000B77E3 /* OSlide9TagView.swift */; };
@@ -221,6 +221,7 @@
 
 /* Begin PBXFileReference section */
 		5EB37FF69F6ADE281C639D0B /* Pods-Ged.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ged.release.xcconfig"; path = "Target Support Files/Pods-Ged/Pods-Ged.release.xcconfig"; sourceTree = "<group>"; };
+		9613EC802633392D00DAEB9A /* Onboarding.Chart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Onboarding.Chart.json; sourceTree = "<group>"; };
 		96F4526E2632D279000B77E3 /* Ged.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ged.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96F4527A2632D27A000B77E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96F4527F2632D27A000B77E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -411,7 +412,6 @@
 		96F457BD2632D4C0000B77E3 /* OSlide8View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSlide8View.swift; sourceTree = "<group>"; };
 		96F457BF2632D4C0000B77E3 /* OProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OProgressView.swift; sourceTree = "<group>"; };
 		96F457C02632D4C0000B77E3 /* OSlide15Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSlide15Cell.swift; sourceTree = "<group>"; };
-		96F457C22632D4C0000B77E3 /* Onboarding.Chart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Onboarding.Chart.json; sourceTree = "<group>"; };
 		96F457C32632D4C0000B77E3 /* ODatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ODatePicker.swift; sourceTree = "<group>"; };
 		96F457C42632D4C0000B77E3 /* OSlide4Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSlide4Cell.swift; sourceTree = "<group>"; };
 		96F457C52632D4C0000B77E3 /* OSlide9TagView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSlide9TagView.swift; sourceTree = "<group>"; };
@@ -1305,7 +1305,7 @@
 		96F457C12632D4C0000B77E3 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				96F457C22632D4C0000B77E3 /* Onboarding.Chart.json */,
+				9613EC802633392D00DAEB9A /* Onboarding.Chart.json */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -1385,7 +1385,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96F4588D2632D4C1000B77E3 /* Onboarding.Chart.json in Resources */,
+				9613EC812633392D00DAEB9A /* Onboarding.Chart.json in Resources */,
 				96F4527B2632D27A000B77E3 /* Assets.xcassets in Resources */,
 				96F456BE2632D3CD000B77E3 /* Localizable.strings in Resources */,
 				96F456BA2632D3C9000B77E3 /* SF-Pro-Rounded-Regular.otf in Resources */,
